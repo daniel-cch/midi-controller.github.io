@@ -1,15 +1,23 @@
 module.exports = {
-  purge: [
-    './**/*.html',
-  ],
-  darkMode: false, // or 'media' or 'class'
+  // purge: [
+  //   './**/*.html',
+  // ],
+  darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      colors: require('daisyui/colors'),
+    },
     colors: {
-      'crimson': '#8E1D18',
-      'crimson-light': '#99342f',
-      'crimson-dark': '#801a16',
+      'crimson': '#6C1B27',
+      'crimson-light': '#7b323d',
+      'crimson-dark': '#611823',
       'midnight-black': '#212121',
+    },
+    borderRadius: {
+      'none': '0',
+      'sm': '0.8rem',
+      'md': '1.4rem',
+      'lg': '2.0rem',
     }
   },
   variants: {
