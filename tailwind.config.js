@@ -8,9 +8,9 @@ module.exports = {
       colors: require('daisyui/colors'),
     },
     colors: {
-      'crimson': '#6C1B27',
-      'crimson-light': '#7b323d',
-      'crimson-dark': '#611823',
+      'crimson': '#C24B3E',
+      'crimson-light': '#c85d51',
+      'crimson-dark': '#af4438',
       'midnight-black': '#212121',
     },
     borderRadius: {
